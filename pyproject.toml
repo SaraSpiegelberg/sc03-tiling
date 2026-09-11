@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sc03-tiling"
+version = "0.1.0"
+description = "Impressão tileada (mosaico) e planejamento de rolos para a térmica SC03h-12BC"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pillow>=10"]
+
+[project.scripts]
+sc03-tile = "sc03_tile.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sc03_tile*"]
