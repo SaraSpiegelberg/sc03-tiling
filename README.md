@@ -117,4 +117,4 @@ O wrapper `print-sc03.ps1` gerencia o estado do rolo (`sc03_roll_state.json`) e 
 
 ## Licença
 
-Projeto pessoal — uso livre.
+MIT — © 2026 **Sara Spiegelberg**. Uso livre, com atribuição.

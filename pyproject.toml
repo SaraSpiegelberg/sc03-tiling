@@ -7,6 +7,8 @@ name = "sc03-tiling"
 version = "0.1.0"
 description = "Impressão tileada (mosaico) e planejamento de rolos para a térmica SC03h-12BC"
 readme = "README.md"
+authors = [{ name = "Sara Spiegelberg", email = "sara.spiegelberg@users.noreply.github.com" }]
+license = { text = "MIT" }
 requires-python = ">=3.9"
 dependencies = ["pillow>=10"]
 
